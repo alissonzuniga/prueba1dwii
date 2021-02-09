@@ -50,6 +50,89 @@ body{
 	color:#373946;
 	text-align: left;
 }
+
+#feature2{
+	background-color: #121520;
+	
+}
+
+#feature2 h4{
+	color: #fff;
+}
+
+#whatyouget{
+	background-color: #09090d;
+}
+
+#whatyouget h1{
+	color: #fff;
+}
+
+#whatyouget h2{
+	color: var(--color-naranja);
+}
+
+#whatyouget h6{
+	color: #fff;
+}
+
+#screenshots{
+	background-color: #151721;
+	background-image: url("../img/bg-features.jpg");
+	background-position: top center;
+	background-size: cover;
+	position: relative;
+	
+}
+#screenshots h1{
+	color: #FFF;
+	padding: 15px;
+	
+}
+#screenshots p{
+	color: var(--color-naranja);
+	font-size: 32px;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+  background-color: rgba(0,0,0,0.60);
+}
+#profile{
+  background-color: #151721;
+	text-align: center;
+}
+#profile h1 {
+	text-align: center;
+  color: #fff;
+	}
+#profile p{
+  text-align: center;
+  color: var(--color-texto-footer);
+}
+
+#foto{
+	border-radius: 100%;
+	padding: 30px;
+}
+
+#download{
+	background-color:#101117;
+	text-align: center;
+}
+
+#download h6{
+	color: #fff;
+	padding: 50px;
+}
+
+#download h1{
+	color: #fff;
+	text-align:center;
+}
 .header-area.sticky {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 	width: 100%;
@@ -73,6 +156,7 @@ h1,h2,h3,h4,h5,h6{
 
 p{
 	line-height: 15px;
+    color: #373946;
 }
 
 
@@ -89,17 +173,46 @@ p{
 .btn{
 	padding: 15px 30px; 
 	border: 0;
-	border-radius: 500;
+	border-radius: 100;
 }
 
 .btn-primary{
 	background-color: #101117;
 	color: #FFF;
-	text-transform: uppercase;
-	font-size: 14px;
-	font-weight: 300; 
+	
+	font-size: 10px;
+	
+	font-spacing: 1px;	
+}
+
+.btn2{
+	padding: 15px 30px; 
+	border: 0;
+	border-color: #fff;
+	border-radius: 300px;
+}
+
+.btn-primary2{
+	background-color: #373946;
+	color: #FFF;
+	font-size: 10px;
 	font-spacing: 1px;
 }
+
+.btn3{
+	padding: 15px 30px; 
+	border: 0;
+	border-color: #fff;
+	border-radius: 300px;
+}
+
+.btn-primary3{
+	background-color: #373946;
+	color: #FFF;
+	font-size: 10px;
+	font-spacing: 1px;
+}
+
 
 .section{
 	padding: 10% 0;
@@ -112,3 +225,11 @@ p{
 	text-align: left; 
 	margin-bottom: 10px;
 	}
+
+footer{
+	background-color: #040406;
+	padding: 30px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
