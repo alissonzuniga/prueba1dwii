@@ -58,6 +58,7 @@ body{
 
 #feature2 h4{
 	color: #fff;
+	text-align: end;
 }
 
 #whatyouget{
@@ -66,6 +67,7 @@ body{
 
 #whatyouget h1{
 	color: #fff;
+	text-align: end;
 }
 
 #whatyouget h2{
@@ -157,6 +159,34 @@ h1,h2,h3,h4,h5,h6{
 p{
 	line-height: 15px;
     color: #373946;
+}
+
+.fab{
+	color: var(--color-naranja);
+	text-align: center;
+	font-size: 50px;
+	text-align: center;
+}
+#feature i{
+	text-align: center;
+}
+
+#rowfeatures i{
+	color: #fff;
+	font-size: 28px;
+	text-align: center;
+}
+#rowfooter i{
+	color: #fff;
+}
+
+#rowfooter p{
+	text-align: center;
+	padding: 10px;
+}
+
+.fab .fa-chromecast{
+	text-align: center;
 }
 
 

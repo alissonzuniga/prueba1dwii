@@ -6,7 +6,7 @@ header{
 	top: 0;
 	z-index: 9999;
 	width: 100%;
-	background-color: transparent !important;
+	background-color: #fff !important;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 .navbar-light {
@@ -15,7 +15,7 @@ header{
 	font-size:14px;	
 }
 .navbar-light .navbar-nav .nav-link{
-	color:#fff;	
+	color:#000;	
 	font-weight:600;
 	text-transform: uppercase;
 	margin-right: 15px;
@@ -25,7 +25,7 @@ header{
 }
 .navbar-light .navbar-nav .active .nav-link{
 	background-color:transparent;
-	color:#EDB44D;
+	color:#000;
 }
 .navbar-light .navbar-nav .active .nav-link:hover{
 	background-color:transparent;
@@ -35,11 +35,11 @@ header{
 
 
 .navbar-light .navbar-nav .show > .nav-link{
-	color: #fff;	
+	color: #000;	
 }
 .navbar-light .navbar-nav .show > .nav-link:focus,
 .navbar-light .navbar-nav .show > .nav-link:hover{
-    color: #fff;
+    color: #000;
     background-color: transparent;
 	
 }
@@ -54,7 +54,7 @@ header{
 	font-size: 14px;
 }
 .navbar-light .navbar-nav .show .dropdown-menu .dropdown-item{
-	color:#FFF;
+	color:#000;
 	border-bottom: 1px solid #ddd;
 }
 
